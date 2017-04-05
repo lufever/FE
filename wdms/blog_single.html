@@ -25,12 +25,12 @@
 	<script type="text/javascript" src="assets/js/plugins/ui/drilldown.js"></script>
 	<!-- /core JS files -->
 
-	
+
 	<script type="text/javascript" src="assets/js/core/app.js"></script>
 	<script type="text/javascript" src="assets/js/pages/blog_single.js"></script>
 
 	<script type="text/javascript" src="assets/js/plugins/ui/ripple.min.js"></script>
-	
+
 
 </head>
 
@@ -46,7 +46,7 @@
 
 			<ul class="nav navbar-nav navbar-right">
 				<li class="language-switch">
-					<a class="dropdown-toggle" href="#">
+					<a class="" href="#">
 						 测风项目
 					</a>
 				</li>
@@ -60,13 +60,95 @@
 					 管理
 					</a>
 				</li>
-				<li class="">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-						<span>消息</span>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle legitRipple" data-toggle="dropdown" aria-expanded="false">
+						<i class="icon-bubbles4"></i>
 						<span class="visible-xs-inline-block position-right">Messages</span>
 						<span class="badge bg-warning-400">2</span>
 					</a>
 
+					<div class="dropdown-menu dropdown-content width-350">
+						<div class="dropdown-content-heading">
+							Messages
+							<ul class="icons-list">
+								<li><a href="#"><i class="icon-compose"></i></a></li>
+							</ul>
+						</div>
+
+						<ul class="media-list dropdown-content-body">
+							<li class="media">
+								<div class="media-left">
+									<img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+									<span class="badge bg-danger-400 media-badge">5</span>
+								</div>
+
+								<div class="media-body">
+									<a href="#" class="media-heading">
+										<span class="text-semibold">James Alexander</span>
+										<span class="media-annotation pull-right">04:58</span>
+									</a>
+
+									<span class="text-muted">who knows, maybe that would be the best thing for me...</span>
+								</div>
+							</li>
+
+							<li class="media">
+								<div class="media-left">
+									<img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+									<span class="badge bg-danger-400 media-badge">4</span>
+								</div>
+
+								<div class="media-body">
+									<a href="#" class="media-heading">
+										<span class="text-semibold">Margo Baker</span>
+										<span class="media-annotation pull-right">12:16</span>
+									</a>
+
+									<span class="text-muted">That was something he was unable to do because...</span>
+								</div>
+							</li>
+
+							<li class="media">
+								<div class="media-left"><img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
+								<div class="media-body">
+									<a href="#" class="media-heading">
+										<span class="text-semibold">Jeremy Victorino</span>
+										<span class="media-annotation pull-right">22:48</span>
+									</a>
+
+									<span class="text-muted">But that would be extremely strained and suspicious...</span>
+								</div>
+							</li>
+
+							<li class="media">
+								<div class="media-left"><img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
+								<div class="media-body">
+									<a href="#" class="media-heading">
+										<span class="text-semibold">Beatrix Diaz</span>
+										<span class="media-annotation pull-right">Tue</span>
+									</a>
+
+									<span class="text-muted">What a strenuous career it is that I've chosen...</span>
+								</div>
+							</li>
+
+							<li class="media">
+								<div class="media-left"><img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
+								<div class="media-body">
+									<a href="#" class="media-heading">
+										<span class="text-semibold">Richard Vango</span>
+										<span class="media-annotation pull-right">Mon</span>
+									</a>
+
+									<span class="text-muted">Other travelling salesmen live a life of luxury...</span>
+								</div>
+							</li>
+						</ul>
+
+						<div class="dropdown-content-footer">
+							<a href="#" data-popup="tooltip" title="" data-original-title="All messages"><i class="icon-menu display-block"></i></a>
+						</div>
+					</div>
 				</li>
 				<li class="">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -99,14 +181,16 @@
 
 
 		<div class="navbar-collapse collapse" id="navbar-second-toggle">
-			<ul class="nav navbar-nav navbar-nav-material">
-				<li><a href=""><i class="icon-arrow-left"></i>问题图标不出来</a></li>
+			<ul class="nav navbar-nav navbar-nav-material active">
+				<li><a href="#" style="font-size:15px"><i class="icon-arrow-left"></i>问题图标不出来</a></li>
 				<li><a>|</a></li>
-				<li class="dropdown" style="font-size:50px">
+				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-					#3212测风塔 
-					<b class="caret"></b>
-				</a>
+						<div style="font-size: 20px;font-weight:bold">#3212测风塔
+							<p class="caret"></p>
+						</div>
+
+					</a>
 					<ul class="dropdown-menu">
 						<li><a href="#">#3212测风塔</a></li>
 						<li><a href="#">#3212测风塔</a></li>
@@ -121,32 +205,23 @@
 			</ul>
 
 			<ul class="nav navbar-nav navbar-nav-material navbar-center" style="position:relative;left:200px;">
-				<li><a href="#">概览</a></li>
-				<li><a href="#">风速</a></li>
-				<li><a href="#">风向</a></li>
-				<li><a href="#">风功率密度</a></li>
-				<li><a href="#">风切变</a></li>
-				<li><a href="#">温度气压</a></li>
+				<li class="active"><a href="#" style="font-size:15px">概览</a></li>
+				<li><a href="#" style="font-size:15px">风速</a></li>
+				<li><a href="#" style="font-size:15px">风向</a></li>
+				<li><a href="#" style="font-size:15px">风功率密度</a></li>
+				<li><a href="#" style="font-size:15px">风切变</a></li>
+				<li><a href="#" style="font-size:15px">温度气压</a></li>
 				<li><a>|</a></li>
-				<li><a href="#">数据日历</a></li>
-				<li><a href="#">数据筛选</a></li>
+				<li><a href="#" style="font-size:15px">数据日历</a></li>
+				<li><a href="#" style="font-size:15px">数据筛选</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-nav-material navbar-right">
-				<li><a class="btn btn-default" href="#" style="height:40px;background-color:lightseagreen;margin-top: 3px">上传/下载测风数据</a></li>
+				<li><a class="btn btn-default" href="#" style="height:35px;background-color:limegreen;color:white;margin-top: 3px;font-size:15px;border-radius: 30px;">上传/下载测风数据</a></li>
 			</ul>
+
 		</div>
 	</div>
 	<!-- /second navbar -->
-
-
-	<!-- Page header -->
-	<!--<div class="page-header">
-		<div class="page-header-content">
-			<div class="page-title">			
-			</div>	
-		</div>
-	</div>-->
-	<!-- /page header -->
 
 
 	<!-- Page container -->
@@ -161,7 +236,7 @@
 
 
 			<!-- Opposite sidebar -->
-			<div class="sidebar sidebar-opposite sidebar-default sidebar-separate" style="">
+			<div class="sidebar sidebar-opposite sidebar-default sidebar-separate">
 				<div class="sidebar-content" style="width: 300px;margin-top: 30px">
 
 					<!-- Sidebar search -->
@@ -192,46 +267,94 @@
 					<!-- Categories -->
 					<div class="sidebar-category">
 						<div class="category-title">
-							<span style="font-size: 20px;font-weight: bold">数据通道(共七个)</span>
+							<span style="font-size: 20px;font-weight: bold">数据通道(共6个)</span>
 							<ul class="icons-list">
 								<li>
 									<a href="#" data-action="collapse"></a>
 								</li>
 							</ul>
 						</div>
-
+						<style type="text/css">
+							input {
+								position: relative;
+								z-index: 1;
+							}
+							
+							.checkboxFive label {
+								cursor: pointer;
+								position: relative;
+								z-index: 2;
+								left: -20px;
+								top: 10px;
+								width: 18px;
+								height: 18px;
+								background: #eee;
+								border: 1px solid #ddd;
+							}
+							
+							.checkboxFive label:after {
+								opacity: 0;
+								content: '';
+								position: absolute;
+								width: 10px;
+								height: 5px;
+								background: transparent;
+								top: 4px;
+								left: 3px;
+								border: 1px solid #333;
+								border-top: none;
+								border-right: none;
+								-webkit-transform: rotate(-45deg);
+								-moz-transform: rotate(-45deg);
+								-o-transform: rotate(-45deg);
+								-ms-transform: rotate(-45deg);
+								transform: rotate(-45deg);
+							}
+							
+							.checkboxFive input[type=checkbox]:checked+label:after {
+								opacity: 1;
+							}
+						</style>
 						<div class="category-content no-padding">
-							<ul class="navigation">
-								<li>
-									<div style="    padding: 12px 20px;">
-										<span class="text-muted text-size-small text-regular pull-right">12</span>
-										<input type="checkbox" name="checkbox1" value="checkbox" /> 90米(1#)
-									</div>
+							<ul class="navigation" style="font-size: 17px; font-weight:bold ">
+								<li >
+									<div class="checkboxFive" style="padding: 0px 20px; font-size: 17px; font-weight:bold ">
 
-									<div style="    padding: 12px 20px;">
-										<span class="text-muted text-size-small text-regular pull-right">12</span>
-										<input type="checkbox" name="checkbox1" value="checkbox" /> 90米(1#)
+										<input type="checkbox" value="1" id="checkboxFiveInput" name="" />
+										<label for="checkboxFiveInput"></label><span style="padding: 12px 0px;">90米(1#)</span>
+										
 									</div>
-									<div style="    padding: 12px 20px;">
-										<span class="text-muted text-size-small text-regular pull-right">12</span>
-										<input type="checkbox" name="checkbox1" value="checkbox" /> 90米(1#)
+                                    <hr>
+                                    <div class="checkboxFive" style="padding: 0px 20px; font-size: 17px;">
+
+										<input type="checkbox" value="1" id="checkboxFiveInput1" name="" />
+										<label for="checkboxFiveInput1"></label><span style="padding: 12px 0px;">90米(1#)</span>
 									</div>
-									<div style="    padding: 12px 20px;">
-										<span class="text-muted text-size-small text-regular pull-right">12</span>
-										<input type="checkbox" name="checkbox1" value="checkbox" /> 90米(1#)
+									<hr>
+                                   <div class="checkboxFive" style="padding: 0px 20px; font-size: 17px;">
+
+										<input type="checkbox" value="1" id="checkboxFiveInput2" name="" />
+										<label for="checkboxFiveInput2"></label><span style="padding: 12px 0px;">90米(1#)</span>
 									</div>
-									<div style="    padding: 12px 20px;">
-										<span class="text-muted text-size-small text-regular pull-right">12</span>
-										<input type="checkbox" name="checkbox1" value="checkbox" /> 90米(1#)
+									<hr>
+									<div class="checkboxFive" style="padding: 0px 20px; font-size: 17px;">
+
+										<input type="checkbox" value="1" id="checkboxFiveInput3" name="" />
+										<label for="checkboxFiveInput3"></label><span style="padding: 12px 0px;">90米(1#)</span>
 									</div>
-									<div style="    padding: 12px 20px;">
-										<span class="text-muted text-size-small text-regular pull-right">12</span>
-										<input type="checkbox" name="checkbox1" value="checkbox" /> 90米(1#)
+									<hr>
+									<div class="checkboxFive" style="padding: 0px 20px; font-size: 17px;">
+
+										<input type="checkbox" value="1" id="checkboxFiveInput4" name="" />
+										<label for="checkboxFiveInput4"></label><span style="padding: 12px 0px;">90米(1#)</span>
 									</div>
-									<div style="    padding: 12px 20px;">
-										<span class="text-muted text-size-small text-regular pull-right">12</span>
-										<input type="checkbox" name="checkbox1" value="checkbox" /> 90米(1#)
+									<hr>
+									<div class="checkboxFive" style="padding: 0px 20px; font-size: 17px;">
+
+										<input type="checkbox" value="1" id="checkboxFiveInput5" name="" />
+										<label for="checkboxFiveInput5"></label><span style="padding: 12px 0px;">90米(1#)</span>
 									</div>
+									
 								</li>
 
 
@@ -244,7 +367,7 @@
 					<!-- Share -->
 					<div class="sidebar-category">
 						<div class="category-title">
-							<button type="submit" class="btn" id="queryBtn" style="background-color: deepskyblue; width: 260px;">查询</button>
+							<button type="submit" class="btn" id="queryBtn" style="background-color: #3a85c1; width: 260px;">查询</button>
 						</div>
 
 
@@ -260,83 +383,152 @@
 				</div>
 			</div>
 
-			<div class="panel-body panel panel-body" style="margin-left: 50px;margin-top: 30px; height: 720px;z-index: 2;position:absolute">
-				
-				<div class="no-margin-top content-group" style="font-size: 15px;font-weight:bold;color: black">
-					
-					<ul class="nav navbar-nav">
-						<li class="dropdown language-switch">
-							<a class="dropdown-toggle" href="#">
+			<div class="panel panel-body" style="margin-left: 50px;margin-top: 30px; position:relative">
+
+				<div class="navbar-default" style="font-size: 15px;color:#CCC">
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav" style="display: block">
+							<li class="language-switch active">
+								<a class="" href="#">
 						 风速概览
 					        </a>
-						</li>
-						<li><a href="#">日变化</a></li>
-						<li><a href="#">逐月变化</a></li>
-						<li><a href="#">年变化</a></li>
-						<li><a href="#">年际变化</a></li>
-						<li><a href="#">威布尔分布</a></li>
-						<li><a href="#">风速曲线</a></li>
-					</ul>
+							</li>
+							<li class="language-switch"><a href="#">日变化</a></li>
+							<li class="language-switch"><a href="#">逐月变化</a></li>
+							<li class="language-switch"><a href="#">年变化</a></li>
+							<li class="language-switch"><a href="#">年际变化</a></li>
+							<li class="language-switch"><a href="#">威布尔分布</a></li>
+							<li class="language-switch"><a href="#">风速曲线</a></li>
+						</ul>
 
-				
+					</div>
+					<div style="border:1px solid #CCC"></div>
+					<br>
 				</div>
-				<div class="nav navbar-nav navbar-nav-material" style="width:1400px;height:1px;margin:0px auto;padding:0px;background-color:#D5D5D5;overflow:hidden;"></div>
 
-				<div class="text-right">
+				<div class=" panel panel-flat" style="margin-left: 20px">
 
-				</div>
-			</div>
-				<div class=" panel panel-flat"  style="z-index: 6 ;position:absolute; margin-top: 140px;margin-left: 100px">
-
-					<table class="table table-striped" style="width: 1321px" >
+					<table class="table table-striped">
 						<tr>
 							<th>
 								<label class="control-label">数据通道</label>
 
 							</th>
-							<th>收件人</th>
 							<th>
 								高度(m)
 							</th>
-							<th item-width="200px">平均值(m/s)</th>
-							<th width="200px">最大值(m/s)</th>
-							<th width="200px">最小值(m/s)</th>
+							<th>平均值(m/s)</th>
+							<th>最大值(m/s)</th>
+							<th>最小值(m/s)</th>
 							<th>有效率(%)</th>
 
 						</tr>
 						<tr>
 							<td>数据缺失</td>
 							<td>姓名<br />(15571893099)</td>
-							<td>XXXXXX</td>
+
 							<td>未发送</td>
 							<td></td>
 							<td></td>
 							<td>手机不存在</td>
 
-						</tr>
+						</tr><tr><td><br></td>
+							<td><br></td>
+
+							<td><br></td>
+							<td><br></td>
+							<td><br></td>
+							<td><br></td></tr><tr><td><br></td>
+							<td><br></td>
+
+							<td><br></td>
+							<td><br></td>
+							<td><br></td>
+							<td><br></td></tr><tr><td><br></td>
+							<td><br></td>
+
+							<td><br></td>
+							<td><br></td>
+							<td><br></td>
+							<td><br></td></tr><tr><td><br></td>
+							<td><br></td>
+
+							<td><br></td>
+							<td><br></td>
+							<td><br></td>
+							<td><br></td></tr>
 						<tr>
-							<td>数据缺失</td>
-							<td>姓名<br />(15571893099)</td>
-							<td>XXXXXX</td>
-							<td>未发送</td>
-							<td></td>
-							<td></td>
-							<td>手机不存在</td>
+							<td><br></td>
+							<td><br></td>
+
+							<td><br></td>
+							<td><br></td>
+							<td><br></td>
+							<td><br></td>
 
 						</tr>
+                        <tr><td><br></td>
+							<td><br></td>
 
+							<td><br></td>
+							<td><br></td>
+							<td><br></td>
+							<td><br></td></tr>
+						 <tr><td><br></td>
+							<td><br></td>
+
+							<td><br></td>
+							<td><br></td>
+							<td><br></td>
+							<td><br></td></tr>
+						  <tr><td><br></td>
+							<td><br></td>
+
+							<td><br></td>
+							<td><br></td>
+							<td><br></td>
+							<td><br></td></tr>
+						   <tr><td><br></td>
+							<td><br></td>
+
+							<td><br></td>
+							<td><br></td>
+							<td><br></td>
+							<td><br></td></tr>
+							<tr><td><br></td>
+							<td><br></td>
+
+							<td><br></td>
+							<td><br></td>
+							<td><br></td>
+							<td><br></td></tr>
+							<tr><td><br></td>
+							<td><br></td>
+
+							<td><br></td>
+							<td><br></td>
+							<td><br></td>
+							<td><br></td></tr>
+							<tr><td><br></td>
+							<td><br></td>
+
+							<td><br></td>
+							<td><br></td>
+							<td><br></td>
+							<td><br></td></tr>
 					</table>
 				</div>
+
+			</div>
+			<!-- /page content -->
+
 		</div>
-		<!-- /page content -->
-
-	</div>
-	<!-- /page container -->
+		<!-- /page container -->
 
 
-	<!-- Footer -->
+		<!-- Footer -->
 
-	<!-- /footer -->
+		<!-- /footer -->
 
 </body>
 
